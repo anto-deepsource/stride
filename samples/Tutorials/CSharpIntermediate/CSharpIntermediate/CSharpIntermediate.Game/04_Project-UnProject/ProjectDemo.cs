@@ -30,6 +30,8 @@ namespace CSharpIntermediate.Code
 
             DebugText.Print($"Parent", new Int2(sphereProjection.XY()));
             DebugText.Print($"Child", new Int2(sphereChildProjection.XY()));
+            DebugText.Print($"Parent", new Int2(sphereProjection.XY()));
+            DebugText.Print($"Child", new Int2(sphereChildProjection.XY()));
         }
     }
 }

@@ -274,6 +274,7 @@ namespace Stride.Assets.Presentation.AssetEditors.EntityHierarchyEditor.Game
             NavigationMeshDebugVisual ret = new NavigationMeshDebugVisual();
 
             ret.DebugEntity = new Entity($"Debug entity for navigation mesh");
+            ret.DebugEntity = new Entity($"Debug entity for navigation mesh");
             
             // Create a visual for every layer with a separate color
             using (var layers = navigationMesh.Layers.GetEnumerator())
