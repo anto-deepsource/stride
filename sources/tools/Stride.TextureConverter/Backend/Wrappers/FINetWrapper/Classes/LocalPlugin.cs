@@ -233,6 +233,7 @@ namespace FreeImageAPI.Plugins
 		/// Function that can be implemented.
 		/// </summary>
 		protected virtual void CloseProc(ref FreeImageIO io, fi_handle handle, IntPtr data) { }
+        protected virtual void CloseProc1(ref FreeImageIO io, fi_handle handle, IntPtr data) { }
 		/// <summary>
 		/// Function that can be implemented.
 		/// </summary>
