@@ -70,6 +70,7 @@ namespace Stride.Animations
         /// </summary>
         /// <param name="shiftTimeSpan">The time span by which the keys should be shifted</param>
         public virtual void ShiftKeys(CompressedTimeSpan shiftTimeSpan) { }
+        public virtual void ShiftKeys1(CompressedTimeSpan shiftTimeSpan) { }
     }
 
     /// <summary>
